@@ -16,4 +16,9 @@ describe('Math', function () {
         const sum = add(10,"5")
         chai.expect(sum).to.be.equal(15)
     })
+
+    it('should add a as number and b as string', function () {
+        const error = add(10,"a")
+        chai.expect(error).to.be.equal('only numbers addition Supported')
+    })
 })
