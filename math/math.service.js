@@ -1,5 +1,5 @@
 
 exports.add = function(a, b)  {
-
-    return Number(a) + b
+   if(!Number(a)) return 'only numbers addition Supported'
+    return Number(a) + Number(b)
 }
