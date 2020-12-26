@@ -19,7 +19,7 @@ describe('Math', function () {
 
     it('should return error', function () {
         const error = add("a", 10)
-        console.log(err)
+        console.log(error)
         chai.expect(error).to.be.equal('only numbers addition Supported')
     })
 })
